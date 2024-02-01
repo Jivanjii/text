@@ -1,0 +1,142 @@
+h2{
+    font-size: 20px;
+    color: gold;
+    text-decoration: underline;
+}
+header{
+    color: blue;
+    font-weight: 500;
+    font-size: 19px;
+}
+.navbar{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.navbar a{
+    color: gold;
+    font-size: 12px;
+text-decoration: none;
+    font-weight: 600;
+}
+.navbar.logo li{
+    text-decoration: none;
+    font-size: large;
+    margin: 0 10px;
+}
+.navbar .logo{
+    display: flex;
+    position: relative;
+}
+.navbar .logo a:hover{
+    color: gold;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/index.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.home .text-one{
+    font-size: 25px;
+    color: blue;
+}
+.text .text-two{
+    font-size: 65px;
+    color: #eeff00;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px;
+    color: #01dcfd;
+}
+.home .text-four{
+    color: #80005c;
+    margin: 5px 0;
+    font-size: 23px;
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #01dcfd;
+    color: #eeff00;
+    cursor:pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: #01dcfd;
+    background-color: gold;
+    color: coral;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url("resources/index.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.about .about-us{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.about .text-one{
+    font-size: 32px;
+    color: blue;
+    text-align: center;
+}
+.about .text-two{
+    font-size: 19px;
+    color: yellow;
+    text-align: center;
+}
+.about .text-three{
+    font-size: 29px;
+    color: green;
+    text-align: center;
+}
+ .about .button{
+    margin: 14px 0;
+     text-align: center;
+}
+ .about .button button{
+      padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #01dcfd;
+    color: #eeff00;
+    cursor:pointer;
+    border: 2px solid transparent;
+ }
+ .about .button button:hover{
+     border-color: #01dcfd;
+     background-color: gold;
+     color: coral;
+ }
